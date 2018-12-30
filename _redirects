@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+http://outmind.co/* http://outmind.fr/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://outmind.netlify.com/* http://outmind.fr/:splat 301!
