@@ -13,7 +13,7 @@ h1 {
 
 .banner {
   background-size: cover;
-  flex-direction: column;
+  padding: 0px;
   height: 100vh;
   display: flex;
   justify-content: space-around;
