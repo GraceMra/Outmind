@@ -12,8 +12,9 @@ h1 {
 }
 
 .banner {
-  background-image: linear-gradient(to right bottom, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0099f7, #00aefd, #00c1ff, #00d5f4, #00e3cc, #4aec90, #b4ec51);
-  height: 100vh;
+  background-image: -webkit-linear-gradient(bottom right, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0a96f4, #00a7f7, #00b7f7, #00c4e6, #00ccc9, #58d1a8, #93d28b);
+  background-image: -o-linear-gradient(bottom right, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0a96f4, #00a7f7, #00b7f7, #00c4e6, #00ccc9, #58d1a8, #93d28b);
+  background-image: linear-gradient(to top left, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0a96f4, #00a7f7, #00b7f7, #00c4e6, #00ccc9, #58d1a8, #93d28b);
   display: flex;
   justify-content: space-around;
   align-items: center;
