@@ -15,8 +15,9 @@ h1 {
   background-color: white;
   padding: 45px 80px;
   border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
   opacity: 0.95;
+  transition: all 0.3s ease;
 }
 
 .banner-content:hover {
