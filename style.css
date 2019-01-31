@@ -12,8 +12,7 @@ h1 {
 }
 
 .banner {
-  background-size: cover;
-  padding: 0px;
+  background-image: linear-gradient(to right bottom, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0099f7, #00aefd, #00c1ff, #00d5f4, #00e3cc, #4aec90, #b4ec51);
   height: 100vh;
   display: flex;
   justify-content: space-around;
