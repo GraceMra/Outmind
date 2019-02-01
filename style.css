@@ -15,15 +15,15 @@ h1 {
   background-color: white;
   padding: 45px 80px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
   opacity: 0.95;
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .banner-content:hover {
   opacity: 1;
 }
-.banner {
+html {
   background-image: -webkit-linear-gradient(bottom right, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0a96f4, #00a7f7, #00b7f7, #00c4e6, #00ccc9, #58d1a8, #93d28b);
   background-image: -o-linear-gradient(bottom right, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0a96f4, #00a7f7, #00b7f7, #00c4e6, #00ccc9, #58d1a8, #93d28b);
   background-image: linear-gradient(to top left, #3023ae, #2b3ec0, #2a56d1, #2f6de0, #3b83ed, #0a96f4, #00a7f7, #00b7f7, #00c4e6, #00ccc9, #58d1a8, #93d28b);
