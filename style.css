@@ -541,7 +541,6 @@ p {
 .wellcome-heading > p {
     color: #fff;
     width: -webkit-fill-available;
-    min-width: 579px;
     font-size: 51px;
     font-weight: 300;
 }
@@ -693,10 +692,10 @@ p {
 
 .single-feature > i {
     color: #fb397d;
-    font-size: 30px;
+    font-size: 28px;
     display: inline-block;
     float: left;
-    margin-right: 10px;
+    margin-right: 17px;
 }
 
 .single-feature > h5 {
