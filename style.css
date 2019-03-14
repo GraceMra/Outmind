@@ -402,13 +402,13 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #53A0FD;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     height: 70px;
     position: fixed;
     top: 0;
     z-index: 99;
+    background: linear-gradient(90deg, #007fff42 0%, rgb(91, 160, 255) 50%, rgb(59, 37, 160) 100%);
 }
 
 .header_area.sticky .menu_area .navbar-brand {
