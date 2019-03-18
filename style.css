@@ -492,6 +492,7 @@ p {
     border: none;
     border-radius: 24px;
     padding: 0px 20px;
+    margin: 10px;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -531,7 +532,6 @@ p {
     line-height: 46px;
     text-align: center;
     border-radius: 24px 24px 24px 24px;
-    margin-left: 10px;
 }
 
 .get-start-area .submit:hover {
