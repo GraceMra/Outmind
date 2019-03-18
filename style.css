@@ -585,14 +585,41 @@ p {
     margin-bottom: 15px;
 }
 
+.focus-wrapper {
+    background: #f4f9fc;
+    padding: 80px 0px;
+}
+
+.figures > h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #3c44d0;
+    line-height: 1.2;
+    font-size: 32px;
+}
+
+.figures > p {
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+    max-width: -webkit-fill-available;
+    max-width: 59%;
+    display: inline-block;
+}
+
 .single-special {
-    border: 1px solid #eff2f6;
+    border: 1px solid #a08ee60f;
     padding: 40px;
     border-radius: 40px 40px 40px 0px;
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
     margin-bottom: 30px;
+    background: #fdfdfd73;
+    box-shadow: yellowgreen;
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.02);
 }
 
 .special_description_content > h2 {
@@ -692,10 +719,13 @@ p {
 
 .single-feature > i {
     color: #fb397d;
-    font-size: 28px;
-    display: inline-block;
+    font-size: 30px;
     float: left;
-    margin-right: 17px;
+    margin-right: 10px;
+    margin-bottom: 7pc;
+    padding: 23px;
+    padding-bottom: -5px;
+    padding-top: 0px;
 }
 
 .single-feature > h5 {
@@ -951,6 +981,10 @@ p {
     color: #f1b922;
 }
 
+.star-icon {
+    padding: 22px;
+}
+
 .clients-feedback-area .client-description > p {
     max-width: 1010px;
     margin: auto;
@@ -977,7 +1011,8 @@ p {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    height: 10px;
 }
 
 .clients-feedback-area .slick-dots li button {
@@ -1009,7 +1044,7 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 55px;
+    height: 6px;
 }
 
 .logo {
@@ -1040,7 +1075,7 @@ p {
     font-size: 24px;
     color: #b5aec4;
     display: block;
-    line-height: 550%;
+    line-height: 140%;
     left: 0;
     z-index: 90;
     cursor: pointer;
