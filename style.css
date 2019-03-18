@@ -438,7 +438,7 @@ p {
 
 .wellcome_area {
     background-image: url(img/bg-img/welcome-bg.jpg);
-    height: 120vh;
+    height: 114vh;
     position: relative;
     z-index: 1;
     background-position: bottom center;
