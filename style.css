@@ -242,13 +242,12 @@ p {
     font-size: 16px;
 }
 
-.section-heading > h2 {
-    font-weight: 300;
-    color: #5b32b4;
-    font-size: 48px;
-    margin: 20px;
+.section-heading > h2 { 
+    font-weight: 300; 
+    color: #5b32b4; 
+    font-size: 48px; 
+    margin: 20px 0px; 
 }
-
 
 .section-heading {
     margin-bottom: 60px;
