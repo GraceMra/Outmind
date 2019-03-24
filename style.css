@@ -584,9 +584,13 @@ p {
     color: #5b32b4;
 }
 
-.single-icon {
-    margin-bottom: 25px;
+    padding: 1.5rem 1rem;
 }
+
+.single-icon > img {
+    width: 50%;
+}
+
 
 .single-special > h4 {
     font-size: 22px;
