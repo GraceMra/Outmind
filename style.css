@@ -483,9 +483,9 @@ p {
 }
 
 .wellcome-heading > h2 {
-    font-size: 72px;
+    font-size: 59px;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 500;
     position: relative;
     z-index: 3;
 }
@@ -550,7 +550,7 @@ p {
 .wellcome-heading > p {
     color: #fff;
     width: -webkit-fill-available;
-    font-size: 51px;
+    font-size: 28px;
     font-weight: 300;
 }
 
