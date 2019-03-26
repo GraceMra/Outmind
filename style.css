@@ -61,13 +61,6 @@ h6 {
     line-height: 1.2;
 }
 
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    max-height: 84vh;
-}
-
 .section_padding_100 {
     padding-top: 80px;
 }
@@ -251,7 +244,7 @@ p {
 .section-heading > h2 { 
     font-weight: 300; 
     color: #5b32b4; 
-    font-size: 48px; 
+    font-size: xx-large;
     margin: 20px 0px; 
 }
 
@@ -555,7 +548,7 @@ p {
 .wellcome-heading > p {
     color: #fff;
     width: -webkit-fill-available;
-    font-size: 28px;
+    font-size: x-large;
     font-weight: 300;
 }
 
