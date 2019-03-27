@@ -204,6 +204,13 @@ ol {
     padding: 0;
 }
 
+.single-special ul {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    padding: 0 0 0 30px;
+}
+
 #scrollUp {
     bottom: 0;
     font-size: 24px;
@@ -525,7 +532,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #fb397d;
+    background-image: linear-gradient(180deg, #2cdd9c, #1dc8cc);
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -538,7 +545,7 @@ p {
 }
 
 .get-start-area .submit:hover {
-    background: #6f52e5;
+    background-image: linear-gradient(180deg, #3ef1b0, #2edfe2);
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -577,18 +584,10 @@ p {
     color: #fb397d;
 }
 
-.single-special > h4 {
-    font-size: 22px;
-    color: #5b32b4;
-}
-
-    padding: 1.5rem 1rem;
-}
 
 .single-icon > img {
     width: 50%;
 }
-
 
 .single-special > h4 {
     font-size: 22px;
@@ -596,9 +595,25 @@ p {
     margin-bottom: 15px;
 }
 
+.white{
+    color:white;
+}
+
 .focus-wrapper {
     background: #f4f9fc;
     padding: 80px 0px;
+}
+
+.dark-blue {
+    background-color: rgba(0,80,199,0.8);
+}
+
+.for-teams .darkblue-plus {
+    background: #0050c7;
+}
+
+.white h2, h4{
+    color:white;
 }
 
 .figures > h4 {
@@ -1108,7 +1123,7 @@ p {
     background: -webkit-linear-gradient(right, #7873ed, #a865e1);
     background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
     background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background-image: linear-gradient(180deg, #2cdd9c, #1dc8cc);
 }
 
 .membership-description > h2 {
@@ -1121,7 +1136,7 @@ p {
     margin-bottom: 0;
 }
 
-.get-started-button > a {
+.get-started-button .submit {
     background: #ffffff;
     height: 45px;
     min-width: 155px;
@@ -1131,10 +1146,13 @@ p {
     color: #fb397d;
     font-weight: 500;
     border-radius: 23px 23px 23px 23px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
 }
 
-.get-started-button > a:hover {
-    background: #5b32b4;
+.get-started-button .submit:hover {
+    background: #fb397d;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1145,6 +1163,10 @@ p {
     text-align: right;
 }
 
+.beta {
+    display: flex;
+    justify-content: space-around;
+}
 /* --------------------------
 :: 12.0 Team Area CSS Start
 -------------------------- */
@@ -1271,7 +1293,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #fb397d;
+    background-image: linear-gradient(180deg, #2cdd9c, #1dc8cc);
     height: 48px;
     min-width: 185px;
     color: #ffffff;
@@ -1280,7 +1302,7 @@ p {
 }
 
 .btn.submit-btn:hover {
-    background: #5b32b4;
+    background-image: linear-gradient(180deg, #3ef1b0, #2edfe2);    
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
