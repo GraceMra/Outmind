@@ -244,6 +244,10 @@ p {
     margin-top: 0;
 }
 
+.flex{
+    display: flex;
+}
+
 .heading-text > p {
     font-size: 16px;
 }
@@ -495,6 +499,20 @@ p {
     z-index: 3;
 }
 
+.sent h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2cdd9c;
+    line-height: 1.2;
+    /* padding-bottom: 30px; */
+    padding: 30px 0px;
+}
+.sent p {
+    color: white;
+    line-height: 1.2;
+    padding: 0px 40px;
+}
+
 .get-start-area .email {
     /* background: #9572e8; */
     height: 50px;
@@ -572,7 +590,7 @@ p {
 }
 
 .wellcome-heading {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 /* --------------------------
