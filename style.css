@@ -238,6 +238,12 @@ p {
     display: flex;
 }
 
+.flex-b {
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .heading-text > p {
     font-size: 16px;
 }
@@ -372,12 +378,21 @@ p {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    padding: 35px 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 0px;
+    padding: 5px;
+    margin: 25px;
+    margin-top: 50px;
 }
-
+.menu_area nav ul li > a {
+    border-bottom: 2px solid transparent;
+}
 
 .menu_area nav ul li > a:hover {
     color: #fb397d;
+    border-bottom: 2px solid white;
+    color: #f2f9ff;
 }
 
 .sing-up-button {
@@ -385,6 +400,7 @@ p {
 }
 
 .sing-up-button > a {
+    margin-top: 25px;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -424,8 +440,21 @@ p {
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
-    padding: 23px 15px;
+    padding: 8px 10px;
+    margin: 15px;
+    border-bottom: 2px solid transparent;
 }
+
+.header_area.sticky .menu_area #nav .nav-link:hover {
+    padding: 8px 10px;
+    margin: 15px;
+    border-bottom: 2px solid white;
+}
+
+.header_area.sticky .sing-up-button a {
+    margin-top: 0px;
+}
+
 .header_area.sticky .navbar {
     padding: 0;
 }
@@ -513,8 +542,15 @@ p {
 }
 
 .get-start-area .email {
-    /* background: #9572e8; */
     height: 50px;
+    max-width: 260px;
+    border: none;
+    border-radius: 24px;
+    padding: 0px 20px;
+    margin-right: 20px;
+}
+
+.get-started-button .email {
     max-width: 260px;
     border: none;
     border-radius: 24px;
@@ -1187,7 +1223,7 @@ p {
 
 .beta {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 /* --------------------------
 :: 12.0 Team Area CSS Start
