@@ -507,7 +507,7 @@ p {
 
 @media (max-width: 640px) {
     .wellcome_area {      
-        height: 160vh;
+        height: 122vh;
     }
 }
 
@@ -532,7 +532,7 @@ p {
 } */
 
 .welcome-thumb {
-    width: 99%;
+    width: 60%;
     /* position: absolute; */
     bottom: -130px;
     right: 85px;
