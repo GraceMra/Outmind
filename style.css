@@ -769,7 +769,6 @@ p {
     text-align: justify;
 }
 .single-special {
-    border: 1px solid #a08ee60f;
     padding: 40px;
     border-radius: 40px 40px 40px 0px;
     -webkit-transition-duration: 800ms;
