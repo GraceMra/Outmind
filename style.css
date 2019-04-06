@@ -776,10 +776,6 @@ p {
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
     margin-bottom: 30px;
-    background: #fdfdfd73;
-    box-shadow: yellowgreen;
-    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.02);
 }
 
 .special_description_content > h2 {
@@ -788,10 +784,10 @@ p {
     margin-bottom: 30px;
 }
 
-.single-special:hover {
+/* .single-special:hover {
     -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
             box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
-}
+} */
 
 .single-special p {
     margin-bottom: 0;
