@@ -281,8 +281,20 @@ p {
     margin-top: 15px;
 }
 
+.line-shape-white,
+.line-shape-b {
+    width: 80px;
+    height: 2px;
+    background-color: #fb397d;
+    margin-top: 15px;
+}
+
 .line-shape {
     margin-left: calc(50% - 40px);
+}
+
+.line-shape-b {
+    margin-left: 0px;
 }
 
 .table {
@@ -344,6 +356,43 @@ p {
 :: 2.0 Header Area CSS
 -------------------------- */
 
+.team {
+    justify-content: space-between;
+    padding: 25vh 0;
+}
+
+.team-jobs {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team h1 {
+    color: white;
+    padding: 10px 10px;
+}
+
+.team h5 {
+    color: white;
+    padding: 20px 10px;
+    font-weight: 500;
+    font-size: x-large;
+    line-height: unset;
+}
+
+.team p {
+    color: white;
+    font-size: large;
+    padding: 0 10px;
+}
+
+.team-img {
+    width: 75%;
+    box-shadow: 0 7px 36px 0 #393943a3;
+    border-radius: 10px;
+    margin: 20px 50px;
+}
+
 .header_area {
     left: 0;
     position: absolute;
@@ -351,6 +400,10 @@ p {
     z-index: 99;
     top: 0;
     padding: 0 4%;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
 }
 
 .menu_area .navbar-brand {
@@ -667,18 +720,33 @@ p {
     font-weight: 500;
     padding: 10px 0;
 }
+.single-special-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .white{
     color:white;
 }
 
 .focus-wrapper {
     background: #f5f9fc;
-    padding: 80px 0px;
+    padding: 70px 0px;
 }
-.blue h2 {
-    color: #3c44d0;
+.focus-wrapper-white {
+    background: white;
+    padding: 70px 0px;
 }
 
+.blue h2 {
+    color: #3c44d0;
+    padding: 0px;
+}
+.blue-jobs h2 {
+    color: #3c44d0;
+    padding: 30px;
+}
 .dark-blue {
     background-color: rgb(41, 112, 221);
 }
@@ -703,6 +771,11 @@ p {
     justify-content: center;
     width: -webkit-fill-available;
 }
+
+.jobs h4 {
+    font-size: 20px;
+}
+
 
 .figures i {
     padding: 16px 22px 20px 0px;    
@@ -735,7 +808,7 @@ p {
 }
 
 .security {
-    background: #f5f9fc;
+    background: #f2f6faa1;
 }
 
 .security h4 {
@@ -1319,15 +1392,26 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 :: 12.0 Team Area CSS Start
 -------------------------- */
 
+.teampic {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
 .member-image {
     margin-bottom: 30px;
-    border-radius: 30px 30px 30px 0;
+    border-radius: 50%;    
     position: relative;
     z-index: 1;
+    width: 200px;
 }
 
 .member-image img {
-    border-radius: 30px 30px 30px 0;
+    border-radius: 50%;
+}
+
+.member-text {
+    padding: 40px;
 }
 
 .member-text > h4 {
@@ -1347,7 +1431,7 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     width: 100%;
     height: 100%;
     background-color: rgba(105, 75, 228, 0.8);
-    border-radius: 30px 30px 30px 0;
+    border-radius: 50%;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition: all 500ms;
@@ -1386,13 +1470,19 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     width: 40px;
     line-height: 40px;
     text-align: center;
-    border-radius: 10px 10px 10px 0;
+    border-radius: 50%;
     display: block;
     margin: 2.5px;
 }
 
+.team-social-icon > a:hover {
+    opacity: 0.7;
+}
+
 .single-team-member {
-    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 /* --------------------------
@@ -1532,4 +1622,10 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 
 .copyright-text > p {
     margin-bottom: 0;
+    color: #726a84;
+}
+
+.copyright-text > a {
+    margin-bottom: 0;
+    color: #726a84;
 }
