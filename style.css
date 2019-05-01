@@ -210,7 +210,7 @@ ol {
     padding: 0 0 0 30px;
 }
 
-#scrollUp {
+/* #scrollUp {
     bottom: 0;
     font-size: 24px;
     right: 30px;
@@ -220,7 +220,7 @@ ol {
     text-align: center;
     height: 50px;
     line-height: 50px;
-}
+} */
 
 a,
 a:hover,
@@ -400,6 +400,21 @@ p {
     z-index: 99;
     top: 0;
     padding: 0 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.blue-header {
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background: linear-gradient(90deg, #007fff42 0%, rgb(91, 160, 255) 50%, rgb(59, 37, 160) 100%);
+    display: flex;
+    align-items: center;
 }
 
 .margin-bottom-40 {
@@ -441,7 +456,6 @@ p {
     border-radius: 0px;
     padding: 5px;
     margin: 25px;
-    margin-top: 50px;
 }
 .menu_area nav ul li > a {
     border-bottom: 2px solid transparent;
@@ -458,7 +472,6 @@ p {
 }
 
 .sing-up-button > a {
-    margin-top: 25px;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -1565,16 +1578,28 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     font-weight: 700;
 }
 
+.footer-text h3 {
+    padding: 30px 0px 20px 0px;
+}
+
 .footer-social-icon > a > i {
-    background: #9b69e4;
+    background: #3d4ac8;
     font-size: 14px;
     color: #ffffff;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
     font-weight: 500;
-    border-radius: 10px 10px 10px 0px;
-    margin-right: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.footer-social-icon {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .footer-social-icon > a > i:hover {
@@ -1593,6 +1618,11 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     margin-bottom: 15px;
 }
 
+.footer-textt {
+    margin-bottom: 15px;
+    margin-inline-start: 4pc;
+}
+
 .footer-menu ul li {
     display: inline-block;
 }
@@ -1600,10 +1630,12 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 .footer-menu ul li a {
     border-right: 2px solid #726a84;
     display: block;
-    padding: 0 7.5px;
+    padding: 0 10px;
     color: #726a84;
 }
-
+.footer-menu ul li a:hover {
+   color: #3c49c5;
+}
 .footer-social-icon > a .active {
     background: #fb397d;
 }
@@ -1613,7 +1645,7 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 .footer-social-icon {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .footer-menu {
@@ -1628,4 +1660,8 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 .copyright-text > a {
     margin-bottom: 0;
     color: #726a84;
+}
+
+.copyright-text {
+    margin-inline-end: 4pc;
 }
