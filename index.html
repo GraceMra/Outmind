@@ -874,5 +874,21 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+    <script type="text/javascript">
+        (function(w,d){
+          w.HelpCrunch=function(){w.HelpCrunch.q.push(arguments)};w.HelpCrunch.q=[];
+          function r(){var s=document.createElement('script');s.async=1;s.type='text/javascript';s.src='https://widget.helpcrunch.com/';(d.body||d.head).appendChild(s);}
+          if(w.attachEvent){w.attachEvent('onload',r)}else{w.addEventListener('load',r,false)}
+        })(window, document)
+        </script>
+        
+        <script type="text/javascript">
+          HelpCrunch('init', 'outmind', {
+            applicationId: 1,
+            applicationSecret: 'bWVdd74YXtQFyo+YDCulKj8+iDWJvDvJp5djxsjqCBjksDk3oi83i5Lx9g0Kf2Pi78X6kfpzTcv9dLiQvC8i0Q=='
+          });
+        
+          HelpCrunch('showChatWidget');
+        </script>
 </body>
 </html>
