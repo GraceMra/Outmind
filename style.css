@@ -613,7 +613,7 @@ p {
 }
 
 .wellcome-heading > h2 {
-    font-size: xx-large;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: 500;
     position: relative;
@@ -1058,6 +1058,16 @@ p {
     display: inline-flex;
 }
 
+.additional-feat .single-feature, .single-feat > i {
+    color: #1ec9c9;
+    font-size: 38px;
+    float: left;
+    margin-right: 10px;
+    padding: 20px 13px;
+    padding-bottom: -5px;
+    padding-top: 0px;
+}
+
 .single-feat {
     margin-top: 20px;
     padding: 0px 25px;    
@@ -1086,6 +1096,7 @@ p {
 .single-feature > h5 {
     font-size: 22px;
     color: #3d45d0;
+    padding: 15px;
 }
 
 .single-feat > h5 {
