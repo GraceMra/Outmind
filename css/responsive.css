@@ -31,6 +31,9 @@
         margin-inline-start: 4pc;
         display: flex;
     }
+    .big-feat{
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -289,10 +292,16 @@
     .wellcome-heading > h2 {
         font-size: 40px;
     }
+    .big-feature {
+        display: flex;
+    }
 }
 
 @media screen and (max-width:990px) {
     .container { flex-wrap: wrap;  }
+    .big-feat {
+        display: block;
+    }
     .big-feat:first-child { flex-basis: 100%;}
     .half-img {
         width: 100%;

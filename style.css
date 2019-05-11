@@ -1042,8 +1042,9 @@ p {
     box-sizing: border-box;
     padding: 15px;
     flex: 2;
+    display: flex;
 }
-  
+
   .big-feat:nth-child(1) {
     flex: 1;
   }
@@ -1054,6 +1055,7 @@ p {
   
 .additional-feat {
     background: #f5f9fc;
+    display: inline-flex;
 }
 
 .single-feat {
