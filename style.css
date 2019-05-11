@@ -120,6 +120,12 @@ h6 {
     padding-bottom: 50px;
 }
 
+.section_padding_70_120 {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+
 .section_padding_20_50 {
     padding-top: 20px;
     padding-bottom: 50px;
@@ -788,7 +794,7 @@ p {
 
 .focus-wrapper {
     background: #f5f9fc;
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 .focus-wrapper-features {
@@ -863,7 +869,7 @@ p {
 }
 
 .security-box .logo {
-    width: 170px;
+    width: 120px;
     max-width: 12vw;
     padding: 25px 0px;
     padding-top: 8px;
@@ -875,10 +881,14 @@ p {
 
 .security h4 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #3c44d0;
     line-height: 1.2;
-    font-size: 26px
+    font-size: 22px
+}
+
+.security b {
+    font-weight: 500;
 }
 
 .security-box h2 {
