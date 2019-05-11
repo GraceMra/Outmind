@@ -100,13 +100,23 @@ h6 {
     padding-bottom: 100px;
 }
 
-.section_padding_70 {
+.section_padding_70_70 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
+.section_padding_70_0 {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
 .section_padding_0_50 {
     padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.section_padding_70_50 {
+    padding-top: 70px;
     padding-bottom: 50px;
 }
 
@@ -123,6 +133,14 @@ h6 {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.half-img {
+    width: 45%;
+    height: 45%;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0 1px 21px 0 rgba(111,116,159,0.15);
+    margin: 0 25px;
 }
 
 .mt-15 {
@@ -338,20 +356,34 @@ p {
     .mc-field-group {      
         display:block;
     }
+    .well-padding {
+        padding: 25vh 1vw;
+        }
   }
 
 @media screen and (min-width: 640px) {
     .mc-field-group {
       display:flex;
     }
+    .well-padding {
+        padding: 35vh 0.1vw;
+        }
 }  
 
 @media (max-width: 767px) and (min-width: 320px) {
-    .wellcome-heading > h2 {
-        font-size: 22px;
+    .well-padding {
+    padding: 25vh 1vw;
     }
 }
 
+@media (max-width: 767px) and (min-width: 480px) {
+    .wellcome-heading > h2 {
+    font-size: xx-large;
+    }
+    .well-padding {
+        padding: 25vh 1vw;
+        }
+}
 /* --------------------------
 :: 2.0 Header Area CSS
 -------------------------- */
@@ -544,17 +576,10 @@ p {
     background-size: cover;
 }
 
-@media (max-width: 640px) {
-    .wellcome_area {      
-        height: 122vh;
-    }
-}
-
 .wellcome_area:after {
     position: absolute;
     width: 100%;
     left: 0;
-    height: 2px;
     background-color: #fff;
     content: '';
     bottom: 0;
@@ -588,7 +613,7 @@ p {
 }
 
 .wellcome-heading > h2 {
-    font-size: 59px;
+    font-size: xx-large;
     color: #ffffff;
     font-weight: 500;
     position: relative;
@@ -723,16 +748,34 @@ p {
 
 
 .single-icon > img {
-    width: 50%;
+    width: 30%;
 }
 
-.single-special > h4 {
+.single-special-up > h4 {
     font-size: 22px;
     color: #3d45d0;
     margin-bottom: 15px;
     font-weight: 500;
     padding: 10px 0;
 }
+.single-special h4 {
+    font-size: 22px;
+    color: #3d45d0;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+
+
+.sing-special > h4 {
+    font-size: 22px;
+    color: #3d45d0;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
 .single-special-news {
     display: flex;
     justify-content: center;
@@ -745,8 +788,14 @@ p {
 
 .focus-wrapper {
     background: #f5f9fc;
-    padding: 70px 0px;
+    padding: 80px 0px;
 }
+
+.focus-wrapper-features {
+    background: #f5f9fc;
+    padding: 20px 0px 25px 0px;
+}
+
 .focus-wrapper-white {
     background: white;
     padding: 70px 0px;
@@ -848,19 +897,53 @@ p {
     max-width: 69vw;
 }
 
+.security-box .clients-feedback-area .client-description > p {
+    margin: 0px 0px;
+    font-size: 22px;
+    color: #3d45d0;
+    /* margin-bottom: 15px; */
+    font-weight: 500;
+    /* padding: 10px 0; */
+}
+
 .security p {
     text-align: initial;
     padding: 22px 20px;
     max-width: 100%;
     text-align: justify;
 }
+.single-special-up {
+    padding: 10px 0px;    
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+}
+
 .single-special {
-    padding: 40px;
+    padding: 40px 40px;  
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;  
+}
+
+.sing-special {
+    padding: 0 40px;
     border-radius: 40px 40px 40px 0px;
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
     margin-bottom: 30px;
+}
+
+.sing-special p {
+    padding: 0px 25px;
+    font-weight: 500;
+}
+
+.single-special-up p {
+    font-weight: 500;
 }
 
 .special_description_content > h2 {
@@ -951,30 +1034,66 @@ p {
 -------------------------- */
 
 .single-feature {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.big-feat {
+    margin: 10px 0px 50px 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    flex: 2;
+}
+  
+  .big-feat:nth-child(1) {
+    flex: 1;
+  }
+  
+  .big-feat:nth-child(2) {
+    flex: 0.5;
+  }
+  
+.additional-feat {
+    background: #f5f9fc;
+}
+
+.single-feat {
+    margin-top: 20px;
+    padding: 0px 25px;    
+    display: inline-block;
 }
 
 .single-feature > p {
     margin-bottom: 0;
+    font-weight: 300;
 }
 
-.single-feature > i {
+.single-feature, .single-feat > i {
     color: #1ec9c9;
-    font-size: 30px;
+    font-size: 28px;
     float: left;
     margin-right: 10px;
-    margin-bottom: 7pc;
-    padding: 23px;
+    padding: 20px 13px;
     padding-bottom: -5px;
     padding-top: 0px;
 }
 
-.single-feature > h5 {
-    font-size: 22px;
-    color: #3d45d0;;
+.single-feature i {
+    margin-right: 0px;
 }
 
-.single-feature > p {
+.single-feature > h5 {
+    font-size: 22px;
+    color: #3d45d0;
+}
+
+.single-feat > h5 {
+    font-size: 16px;
+    color: #726a84;
+    text-align: -webkit-auto;
+    line-height: 1.4;
+    padding: 0px 5px 0px 64px;
+}
+.single-feature, .single-feat > p {
     margin-top: 15px;
 }
 
@@ -1518,6 +1637,9 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 .footer-contact-area .line-shape {
     margin-left: 0;
 }
+.wrapper-footer {
+margin-bottom: 185px;
+}
 
 .footer-contact-area .heading-text > p {
     margin-top: 50px;
@@ -1664,4 +1786,13 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 
 .copyright-text {
     margin-inline-end: 4pc;
+}
+.margin-b-100 {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+.wellcome-heading > h2 {
+    font-size: 40px;
+}
 }
